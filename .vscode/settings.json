@@ -40,13 +40,7 @@
     "source.fixAll.stylelint": "explicit"
   },
   //eslint   -----settings start-----
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
   //eslint   -----settings end-----
   //prettier   -----settings start-----
   "prettier.useEditorConfig": false,
@@ -63,9 +57,7 @@
   "stylelint.packageManager": "yarn",
   "stylelint.validate": [
     "css",
-    "html",
     "less",
-    "markdown",
     "postcss",
     "sass",
     "scss",
@@ -74,6 +66,6 @@
     "sugarss",
     "svelte"
   ],
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib"
   //stylelint   -----settings end-----
 }
