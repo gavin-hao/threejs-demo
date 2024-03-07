@@ -42,5 +42,6 @@ module.exports = {
     'prefer-arrow-callback': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error', 'warn'] }] : 'off', //生产模式不允许使用log
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off', //生产默认不允许使用debugger
+    'vue/multi-word-component-names': 'off',
   },
 };
